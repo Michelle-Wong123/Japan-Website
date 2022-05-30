@@ -10,12 +10,17 @@
     font-family: HK-Grotesk Light;
     src: url('../fonts/HKGrotesk-Light.otf');
 }
-
-nav {
-    flex: 0 1 auto;
-    display: flex;
-    margin-top: 3rem;
+header nav {
+    fill-opacity: inherit;
+    background-color: #e1b5a8;
 }
+
+ nav {
+    /* flex: 0 1 auto;
+    display: flex;
+    margin-top: 3rem; */
+    padding: 20px;
+} 
 
 nav span {
     margin-left: 10rem;
